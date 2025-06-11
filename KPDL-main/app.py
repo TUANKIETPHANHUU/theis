@@ -6,10 +6,10 @@ import joblib
 app = Flask(__name__)
 
 # Tải mô hình và các đối tượng tiền xử lý
-model = joblib.load('stacking_model.pkl')
-selector = joblib.load('feature_selector.pkl')
-scaler = joblib.load('scaler.pkl')
-selected_features = joblib.load('selected_features.pkl')
+model = joblib.load(r'C:\Users\phanh\Downloads\KPDL-main\KPDL-main\stacking_model.pkl')
+selector = joblib.load(r'C:\Users\phanh\Downloads\KPDL-main\KPDL-main\feature_selector.pkl')
+scaler = joblib.load(r'C:\Users\phanh\Downloads\KPDL-main\KPDL-main\scaler.pkl')
+selected_features = joblib.load(r'C:\Users\phanh\Downloads\KPDL-main\KPDL-main\selected_features.pkl')
 
 # Định nghĩa các đặc trưng đầu vào mà người dùng cần nhập
 # Các đặc trưng gốc cần để tính các đặc trưng tương tác
